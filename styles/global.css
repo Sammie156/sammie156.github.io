@@ -15,9 +15,14 @@ h1 {
 }
 
 .page-info {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
-    color: white;
+    color: antiquewhite;
+    transition: color 0.1s ease-in;
+}
+
+.page-info:hover {
+    color:rgb(224, 224, 113);
 }
 
 .nav-links {
@@ -41,6 +46,10 @@ h1 {
 
 .center_align {
     text-align: center;
+}
+
+.page-content {
+    color: white;
 }
 
 body {
