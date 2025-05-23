@@ -1,7 +1,7 @@
 h1 {
     font-size: 3rem;
     display: inline-block;
-    margin: 20px auto;
+    margin: 0px auto;
     color:aliceblue;
 }
 
@@ -11,6 +11,12 @@ h1 {
     align-items: center;
     background-color: #111;
     padding: 15px 30px;
+    color: white;
+}
+
+.page-info {
+    font-size: 1.5rem;
+    margin: 0;
     color: white;
 }
 
@@ -39,7 +45,16 @@ h1 {
 
 body {
     background-color:rgb(54, 53, 52);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
+
+body.fade-out {
+    opacity: 0;
+}
+
 .dotted-line {
   border-top: 2px dotted #000;
   width: 100%;
