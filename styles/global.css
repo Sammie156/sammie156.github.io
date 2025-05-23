@@ -1,0 +1,47 @@
+h1 {
+    font-size: 3rem;
+    display: inline-block;
+    margin: 20px auto;
+    color:aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 30px;
+    color: white;
+}
+
+.nav-links {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+}
+
+.center_align {
+    text-align: center;
+}
+
+body {
+    background-color:rgb(54, 53, 52);
+}
+.dotted-line {
+  border-top: 2px dotted #000;
+  width: 100%;
+  margin: 20px 0;
+}
